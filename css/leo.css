@@ -1,0 +1,32 @@
+.card-leo {
+    background:white;
+    padding: 50px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card-leo:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.form-label{
+    color:gray;
+    font-size:15px;
+}
+
+.loader-leo {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #17816a; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
